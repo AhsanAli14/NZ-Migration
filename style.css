@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    height: 100vh;
+    background-image: url('hero-img-1.jpg');
+    background-size: cover;
+    color: white;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+.navBar{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white
+}
+.logo{
+    height: 45px;
+    width: 45px;
+    background-color: brown;
+    border-radius: 2px;
+}
+.logo-img p{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-menu{
+    width: 60%;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.list-item{
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+}
+.list-item:hover {
+    transform: scale(1.2);
+}
+.nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+.contact-btn{
+    font-size: 1.3rem;
+    height: 60px;
+    padding: 0% 2%;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.hero-paras{
+    max-width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 300;
+}
+.para1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+.para{
+    margin-top: 4%;
+}
+/* Steps */
+.steps-section{
+    /* min-height: 100vh; */
+    background-color: black;
+    overflow: hidden;
+}
+.progress{
+    /* min-height: 100vh; */
+    padding: 0 2.5%;
+    color: #fff;
+}
+.step-btn{
+    background-color: black;
+    border-radius: 1.5rem;
+    border: solid #fff 0.1rem;
+    color: #fff;
+    margin-top: 3%;
+    padding: 8px 26px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.step-para{
+    font-size: 4em;
+    font-weight: 800;
+}
+.step-numbers{
+    min-height: 70vh;
+    margin-top: 2%;
+}
+.steps-img{
+    height: 781px;
+    width: 100%;
+    position: relative;
+}
+.steps-img img{
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.steps{
+    z-index: 5;
+}
+
+/* form section */
+.form-section{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    position: relative;
+}
+.img2{
+    position: absolute;
+}
+/* @media (max-width: 991px){
+    .nav-menu{
+        display: none;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .para1{
+        font-size: 2rem;
+    }
+} */
