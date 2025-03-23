@@ -108,7 +108,7 @@
                         <div class="h-line"></div>
                     </div>
                     <div class="ellipses">
-                        <div class="ellipse ellipse-1"></div>
+                        <div class="ellipse ellipse-1 visible"></div>
                         <div class="ellipse ellipse-2"></div>
                         <div class="ellipse ellipse-3"></div>
                         <div class="ellipse ellipse-4"></div>
@@ -117,58 +117,90 @@
                 <form class="form-qs">
                     <div class="q-no-1 question">
                         <p>Do you have a partner applying with you?</p>
-                        <label for="101">
-                            <input type="radio" id="101" name="partner"> No
+                        <label for="q1-no">
+                            <input type="radio" id="q1-no" name="partner"> No
                         </label>
-                        <label for="102">
-                            <input type="radio" id="102" name="partner"> Yes
+                        <label for="q1-yes">
+                            <input type="radio" id="q1-yes" name="partner"> Yes
                         </label>
+                        <div>
+                            <small class="error-msg hidden">Select atleast one.</small>
+                        </div>
                     </div>
                     <div class="q-no-2 question">
                         <p>Does your profession appear on the Green List?</p>
-                        <label for="103">
-                            <input type="radio" id="103" name="list"> No
+                        <label for="q2-no">
+                            <input type="radio" id="q2-no" name="list"> No
                         </label>
-                        <label for="104">
-                            <input type="radio" id="104" name="list"> Yes
+                        <label for="q2-yes">
+                            <input type="radio" id="q2-yes" name="list"> Yes
                         </label>
+                        <div>
+                            <small class="error-msg hidden">Select atleast one.</small>
+                        </div>
+                        
                     </div>
-                    <div class="dropdown-g-l">
+                    <div class="dropdown-g-l dropdown-list-1">
                         <p>Select your Green List Role:</p>
                         <select name="green-list" class="g-list">
                             <option value="">--Select Role--</option>
+                            <option value="guard">Guard</option>
+                            <option value="shop-keeper">Shop Keeper</option>
                         </select>
+                        <div>
+                            <small class="error-msg hidden">Select the role.</small>
+                        </div>
                     </div>
-                    <div class="qualification fill-textbox">
+                    <div class="s-qualification fill-textbox">
                         <p>Your Qualification (Where obtained and Graduation Year)</p>
                         <textarea name="qualification" class="textbox" rows="5"></textarea>
+                        <div>
+                            <small class="error-msg hidden">Write any thing.</small>
+                        </div>
                     </div>
-                    <div class="experience fill-textbox">
+                    <div class="s-experience fill-textbox">
                         <p>Your Work Experience</p>
                         <textarea name="qualification" class="textbox" rows="5"></textarea>
+                        <div>
+                            <small class="error-msg hidden">Write any thing.</small>
+                        </div>
                     </div>
                     <div class="q-no-3 question">
                         <p>Does your profession appear on the Green List?</p>
-                        <label for="103">
-                            <input type="radio" id="103" name="list"> No
+                        <label for="q3-no">
+                            <input type="radio" id="q3-no" name="list"> No
                         </label>
-                        <label for="104">
-                            <input type="radio" id="104" name="list"> Yes
+                        <label for="q3-yes">
+                            <input type="radio" id="q3-yes" name="list"> Yes
                         </label>
+                        <div>
+                            <small class="error-msg hidden">Select atleast one.</small>
+                        </div>
                     </div>
-                    <div class="dropdown-g-l">
+                    <div class="dropdown-g-l dropdown-list-2">
                         <p>Select your Partner's Green List Role:</p>
                         <select name="green-list" class="g-list">
                             <option value="">--Select Role--</option>
+                            <option value="guard">Guard</option>
+                            <option value="shop-keeper">Shop Keeper</option>
                         </select>
+                        <div>
+                            <small class="error-msg hidden">Select the role.</small>
+                        </div>
                     </div>
-                    <div class="qualification fill-textbox">
+                    <div class="p-qualification fill-textbox">
                         <p>Partner's Qualification (Where obtained and Graduation Year)</p>
                         <textarea name="qualification" class="textbox" rows="5"></textarea>
+                        <div>
+                            <small class="error-msg hidden">Write any thing.</small>
+                        </div>
                     </div>
-                    <div class="experience fill-textbox">
+                    <div class="p-experience fill-textbox">
                         <p>Partner's Work Experience</p>
                         <textarea name="qualification" class="textbox" rows="5"></textarea>
+                        <div>
+                            <small class="error-msg hidden">Write any thing.</small>
+                        </div>
                     </div>
                     <div class="next-btn">
                         <input type="submit" value="Next" class="submit-btn">
@@ -230,6 +262,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="app.js"></script>
 </body>
 </html>

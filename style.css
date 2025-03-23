@@ -246,6 +246,9 @@
     border-radius: 50%;
 }
 .ellipse-1{
+    /* background-color: brown; */
+}
+.visible{
     background-color: brown;
 }
 .question{
@@ -264,6 +267,9 @@
     background: none;
     color: #fff;
     border-radius: 5px;
+}
+.g-list option{
+    color: black;
 }
 .fill-textbox{
     margin-top: 10%;
@@ -292,6 +298,11 @@
 .submit-btn:hover{
     background-color: white;
     color: black;
+}
+.hidden{
+    visibility: hidden;
+    /* visibility: visible; */
+    color: brown;
 }
                             /* Footer section */
 .f-bg-img{
